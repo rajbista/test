@@ -1,0 +1,191 @@
+let hotel = {
+{
+        "_id" : ObjectId("5a778d7487ea691b64a0079e"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T22:47:16.721Z"),
+        "checkOut" : ISODate("2018-02-04T22:47:16.722Z"),
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5a778e5a6ef04115bc9419b6"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T22:51:06.233Z"),
+        "checkOut" : ISODate("2018-02-04T22:51:06.233Z"),
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5a778f4aaae7820cdcd12dce"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T22:55:06.372Z"),
+        "checkOut" : ISODate("2018-02-04T22:55:06.372Z"),
+        "location" : {
+                "lat" : 123456,
+                "lon" : 1234
+        },
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5a7792379a27e11ee01c6a3b"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T23:07:35.614Z"),
+        "checkOut" : ISODate("2018-02-04T23:07:35.615Z"),
+        "location" : {
+                "lat" : 123456,
+                "lon" : 1234
+        },
+        "room" : [
+                {
+                        "features" : [
+                                "TV",
+                                "Wifi",
+                                "Bath tab"
+                        ],
+                        "_id" : ObjectId("5a7792379a27e11ee01c6a3c"),
+                        "roomType" : "single beded Room",
+                        "quantity" : 5,
+                        "price" : 50,
+                        "capacity" : 2,
+                        "floor" : "second"
+                }
+        ],
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5a7792ad377aef279057121e"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T23:09:33.723Z"),
+        "checkOut" : ISODate("2018-02-04T23:09:33.723Z"),
+        "location" : {
+                "lat" : 123456,
+                "lon" : 1234
+        },
+        "room" : [
+                {
+                        "features" : [
+                                "TV",
+                                "Wifi",
+                                "Bath tab"
+                        ],
+                        "_id" : ObjectId("5a7792ad377aef2790571220"),
+                        "roomType" : "single beded Room",
+                        "quantity" : 5,
+                        "price" : 50,
+                        "capacity" : 2,
+                        "floor" : "second"
+                },
+                {
+                        "features" : [
+                                "TV",
+                                "Wifi",
+                                "Bath tab"
+                        ],
+                        "_id" : ObjectId("5a7792ad377aef279057121f"),
+                        "roomType" : "single beded Room",
+                        "quantity" : 5,
+                        "price" : 50,
+                        "capacity" : 2,
+                        "floor" : "second"
+                }
+        ],
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5a7792c36846fa036007c427"),
+        "address" : {
+                "street" : "xyz",
+                "city" : "ktm",
+                "state" : "Bagmati",
+                "country" : "Nepal"
+        },
+        "checkIn" : ISODate("2018-02-04T23:09:55.345Z"),
+        "checkOut" : ISODate("2018-02-04T23:09:55.345Z"),
+        "location" : {
+                "lat" : 123456,
+                "lon" : 1234
+        },
+        "room" : [
+                {
+                        "features" : [
+                                "TV",
+                                "Wifi",
+                                "Bath tab"
+                        ],
+                        "_id" : ObjectId("5a7792c36846fa036007c429"),
+                        "roomType" : "single beded Room",
+                        "quantity" : 5,
+                        "price" : 50,
+                        "capacity" : 2,
+                        "floor" : "second"
+                },
+                {
+                        "features" : [
+                                "TV",
+                                "Wifi",
+                                "Bath tab"
+                        ],
+                        "_id" : ObjectId("5a7792c36846fa036007c428"),
+                        "roomType" : "single beded Room",
+                        "quantity" : 5,
+                        "price" : 50,
+                        "capacity" : 2,
+                        "floor" : "second"
+                }
+        ],
+        "name" : "Hotel Himallaya",
+        "phone" : 123456789,
+        "email" : "hotelhimalayaa@gmail.com",
+        "rating" : 4.5,
+        "description" : "One of the best hotel in Nepal. This hotel is located very close to Everest!",
+        "__v" : 0
+}
+}
